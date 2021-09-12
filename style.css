@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@200;300;400;500;600;700;800&display=swap');
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container{
+	width: 1200px;
+	margin: auto;
+}
+p{
+	color: #4b4b4b;
+    font-size: 18px;
+    line-height: 30px;
+}
+h1{
+	font-size: 36px;
+    color: #4b4b4b;
+    font-weight: 400;
+}
+
+h2{
+    font-size: 30px;
+    color: #4b4b4b;
+    font-weight: 400;
+}
+
+.center{
+    text-align: center;
+}
+/*banner css*/
+
+.banner{
+    text-align: center;
+    background-image: url(images/TitanYarn_HighRes-4x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.banner-content {
+    padding-top: 40vh;
+}
+.banner h1{
+    
+}
+.banner p{
+    width: 72%;
+    margin: auto;
+}
+/*About Us CSS*/
+
+.col-6 {
+    width: 50%;
+    float: left;
+}
+
+.about_us{}
+.about_us .row{
+    padding: 100px 0px;
+}
+.about_us img{}
+.about_us_content h2{}
+.about_us_content p{}
+.about_us a {
+    text-decoration: none;
+    padding: 15px 20px;
+    background: #ea606f;
+    color: #fff;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+/*footer css*/
+
+.footer {
+    padding: 10px 0px;
+    background: #ddd;
+}
